@@ -20,18 +20,26 @@
 
    python afk.py
 
-3. Нажмите кнопку Start/Stop в окне.
+3. Выберите латинский символ для нажатия (a-z, A-Z):
+
+   Пример: "Enter key --> W"
+
+4. Выберите интервал повторения нажатий выбранной кнопки в секундах, не более 9999:
+
+   Пример: "Enter interval (seconds) --> 600"
+
+5. Нажмите кнопку Start/Stop в окне.
 
 Важно: Работает только если окно GTA активно (не свёрнуто). Для поддержки фона нужен был бы более сложный хук.
 
-4. Как собрать в .exe (опционально)
+6. Как собрать в .exe (опционально)
 
    pip install pyinstaller
    pyinstaller --onefile --noconsole afk.py
 
-Готовый .exe будет лежать в папке C:\Users\Юзер\.vscode\dist
+Готовый .exe будет лежать в папке C:/Users/ВашЮзер/.vscode/dist
 
-5. Важные заметки
+7. Важные заметки
 
 - Бот не нарушает правила игры (не автоматизирует действия игрока).
 - Используйте на свой страх и риск.
@@ -56,18 +64,26 @@ Automatic "W" key press with a delay
 
    python afk.py
 
-3. Click the Start / Stop button in the window.
+3. Select the Latin character to press (a-z, A-Z):
+
+   Example: "Enter key --> W"
+
+4. Select the interval for repeating presses of the selected key in seconds, no more than 9999:
+
+   Example: "Enter interval (seconds) --> 600"
+
+5. Click the Start / Stop button in the window.
 
 Important: This works only if the GTA window is active (not minimized). To work in the background, a more complex hook would be needed.
 
-4. How to Build an .exe (optional):
+6. How to Build an .exe (optional):
 
    pip install pyinstaller
    pyinstaller --onefile --noconsole afk.py
 
-The ready .exe file will be located in: C:\Users\YourUser\.vscode\dist
+The ready .exe file will be located in: C:/Users/YourUser/.vscode/dist
 
-5. Notes
+7. Notes
 
 - This bot does not break any game rules (it doesn’t automate gameplay actions).
 - Use at your own risk.
