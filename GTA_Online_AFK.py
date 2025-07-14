@@ -62,7 +62,7 @@ class MainWindow(QWidget):
         try:
             interval = float(interval_text)
         except ValueError:
-            interval = 10  # дефолтное значение, если пользователь не ввёл число
+            interval = 10  # дефолтное значение, если пользователь не ввёл число (секунды)
 
         global running
         if not running:
